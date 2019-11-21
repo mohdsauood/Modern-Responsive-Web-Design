@@ -14,12 +14,10 @@ html,body{
 .carousel-caption
 {
   position: absolute;
-  top:40%;
+  top:50%;
+  transform:translateY(-50%);
 }
-.carousel-indicators
- {
-   top:70%;
-}
+
 .carousel-caption h1
 {
   font-size:500%;
@@ -28,8 +26,10 @@ html,body{
 }
 .carousel-caption h5
 {
+  font-size:200%;
+  font-weight:500;
   text-shadow:1px 1px 10px #000;
-
+  padding-bottom:1rem;
 }
  /* Copyright (c) 2019, Mohamed Sauood(mohamedsauood@gmail.com)
 All rights reserved.
@@ -129,6 +129,7 @@ Redistribution and use in source and binary forms, with or without modification,
 {
 
 }
+
 .custom-a
 {
 
@@ -255,4 +256,155 @@ footer a:hover
 {
   color:white;
   text-decoration: none;
+}
+/* media queries */
+
+@media (max-width: 992px)
+{
+
+}
+
+@media (max-width: 768px)
+{
+  .carousel-caption
+  {
+    top:45%;
+  }
+  .carousel-caption h1
+  {
+    font-size:350%;
+  }
+  .carousel-caption h5
+  {
+    font-size:140%;
+    font-weight:400;
+    padding-bottom: .2rem;
+  }
+  .carousel-caption .btn
+  {
+    font-size:95%;
+    padding:8px 14px;
+  }
+  .customcolor-1 .display-4
+  {
+    font-size:200%;
+  }
+}
+@media(max-width: 576px)
+{
+  #navbarResponsive
+  {
+    padding-left:1% !important;
+  }
+  .carousel-caption
+  {
+    top:40%;
+  }
+  .carousel-caption h1
+  {
+    font-size:160%;
+  }
+  .carousel-caption h5
+  {
+    font-size:60%;
+
+  }
+  .carousel-caption .btn
+  {
+    font-size:80%;
+    padding:2px 4px;
+  }
+  .carousel-indicators
+  {
+    display:none;
+  }
+  .text-left.customcolor-1.display-4
+  {
+    margin-bottom:2% !important;
+    margin-left:3% !important;
+  }
+  .display-4
+  {
+    font-size:160%;
+  }
+  .custom-a .nav-tabs .nav-link, .nav-tabs .nav-link.active
+  {
+    font-size:85%;
+  }
+  .custom-toggler
+  {
+    position:absolute;
+    left:80%;
+  }
+  .custom-a p
+  {
+    font-size:75%;
+  }
+  .navbar-brand img
+  {
+    width:25%;
+  }
+  .navbar-nav .nav-item .nav-link
+  {
+    font-size: 80%;
+  }
+  h3.display-4.customcolor-w
+  {
+    padding-top:2% !important;
+    margin-bottom:1% !important;
+  }
+  .row .custom-card .card
+  {
+    margin-top:1% !important;
+    margin-bottom:2.5% !important;
+  }
+  .custom-card .card-body
+  {
+    padding-top:2%;
+    padding-bottom:1%;
+  }
+  .card-title.customcolor-y
+  {
+    font-size:110%;
+  }
+  .custom-background1 .display-6
+  {
+    font-size: 160%;
+    padding-top:2% !important;
+    margin-bottom: 2% !important;
+  }
+  .jumbotron .display-5
+  {
+    font-size: 130%;
+  }
+  .jumbotron .lead
+  {
+    font-size: 80%;
+  }
+  .jumbotron .btn
+  {
+    font-size:80%;
+  }
+  footer img
+  {
+    width: 40%;
+  }
+  footer .display-5
+  {
+    font-size:130%;
+    padding-left:2% !important;
+  }
+  .custom-space
+  {
+    height:0.5em;
+  }
+  .custombackground-3 .card-title
+  {
+    margin-top:2% !important;
+    font-size: 130%;
+  }
+  .custombackground-3 h6
+  {
+    font-size: 70%;
+  }
 }
