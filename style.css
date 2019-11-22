@@ -79,6 +79,10 @@ color:#36b5b0;
   background-color: #36b5b0;
   border-color:white;
 }
+.btn-outline-light
+{
+  text-shadow:1px 1px 10px #000;
+}
 /* .btn-primary .btn-custom1:hover
 {
 
