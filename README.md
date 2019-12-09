@@ -3,7 +3,7 @@
 
 https://eksentrik.netlify.com/
 
-![alt tag]
+![alt tag](https://github.com/mohdsauood/Modern-responsive-web-design/blob/master/images/design.PNG)
 
 # How It's Made
 
